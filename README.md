@@ -110,7 +110,7 @@ I locally created server with LLM and generated datasets for ~3 days.
 
 I tested 2 versions of model:
 #### Small
-```json
+```python
 config = {
     "embedding_size": 32,
     "structure_embedding_size": 8,
@@ -123,7 +123,7 @@ config = {
 }
 ```
 #### Large
-```json
+```python
 config = {
     "embedding_size": 32,
     "structure_embedding_size": 8,
